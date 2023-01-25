@@ -1,0 +1,145 @@
+*,body{
+	font-family: 'Tahoma';
+}
+
+
+header#topo_site{
+	background-color: #253647;
+	border-bottom: 10px solid #E84C3D;
+	padding: 15px 0px;
+}
+
+header#topo_site nav{
+margin: 20px 0px 0px 0px;
+}
+
+header#topo_site nav ul li{
+	display: inline;
+}
+
+header#topo_site nav ul li a{
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-color: #131C24;
+	padding: 10px 20px;
+	font-size: 12px;
+}
+
+header#topo_site nav ul li a.faq{
+	background-color: #E84C3D;
+}
+
+section#destaque{
+	height: 325px;
+	background-image: url('../_images/bg-header.jpg');
+	background-position: center;
+	text-align: center;
+
+}
+
+section#destaque h3{
+	padding: 70px 0px 0px 0px;
+	color: #fff;
+	font-size: 50px; 
+	text-shadow: 1px 1px 5px #000; 
+	letter-spacing: -4px;
+}
+
+section#destaque h6{
+	color: #fff;
+	font-size: 20px;
+	text-shadow: 1px 1px 5px #000;
+	width: 500px; 
+	margin: 0 auto;
+}
+
+
+
+article.curso {
+	height: 80px;
+	font-size: 13pt;
+	color: #253647;
+	margin: 25px 0px;
+}
+
+
+article.curso strong{
+	text-transform: uppercase;
+
+}
+
+article.curso section.calendario{
+	color:#fff;
+	text-align: center;
+}
+
+article.curso section.calendario section.dia{
+	background: #E84C3D;
+	height: 50px;
+	font-size: 22pt;
+	font-weight: bold;
+	letter-spacing: -2px;
+}
+
+article.curso section.calendario section.mes{
+	background:#253647;
+	height: 30px;
+	font-size: 13pt;
+}
+
+
+section.caracteristicas{
+	background-image: url("../_images/bg-bottom.jpg");
+	background-position: center;
+	height: 350px;
+	border-top: 10px solid #2dcc70;
+}
+
+
+section.caracteristicas ul {
+	padding: 85px 0px;
+}
+
+section.caracteristicas ul li{
+	list-style-image: url("../_images/check.png");
+	list-style-position: inside;
+}
+
+section.caracteristicas ul li h6{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 22pt;
+	text-shadow:1px 1px 1px #000;
+}
+
+section.localizacao{
+	background-color: #253647;
+	padding: 50px 0px;
+}
+
+section.localizacao div.contatos{
+	color: #fff;
+	padding: 90px 0px;
+}
+section.localizacao div.contatos h6{
+	text-transform: uppercase;
+
+}	
+section.localizacao div.contatos h6 span {
+	color: #2DCC70;
+	
+}
+
+footer{
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	padding: 15px 0px;
+}	
+
+.conteudo{
+	padding: 100px 0px;
+	color: #253647;
+	line-height: 150%;
+}
